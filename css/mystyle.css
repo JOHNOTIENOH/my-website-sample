@@ -1,0 +1,97 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.tiz
+{
+  background-image: url(jn.jpg)
+}
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.main-nav li
+{
+  display: inline-block;
+}
+.main-nav li a
+{
+color: green;
+text-decoration: none;
+padding: 5px 20px;
+font-family: "Robot",sans-serif;
+font-size: 20px;
+}
+.main-nav li.active a
+{
+  border: 1px solid black;
+  text-decoration: none;
+}
+.main-nav li a:hover
+{
+  background-color: darkorange;
+  border: 1px solid white;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero
+{
+ position: absolute;
+  width: 800px;
+  margin-left: 10px;
+  margin-top: 0px
+}
+h1
+{
+
+margin-left: 20px;
+color: skyblue;
+text-transform:uppercase;
+font-size: 20px;
+text-align: justify;
+margin-top: 200px;
+
+}
+.button
+{
+  text-align: left;
+  margin-top: 80px;
+
+}
+.btn{
+  border: 5px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+.btn-one
+{
+  text-align: left;
+  background-color: darkorange;
+  font-family: "Robot", sans-serif;
+}
+.btn-two
+{
+  font-family: "Robot", sans-serif;
+}
+.btn-two:hover
+{
+  background-color: darkorange;
+  transition: all 0.5s ease-in;
+}
